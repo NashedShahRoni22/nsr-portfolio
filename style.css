@@ -20,13 +20,21 @@ h2{
     margin-left: 5%;
 }
 .half-width img{
-    width: 60%;
+    width: 80%;
+}
+.half-width img:hover{
+    cursor: pointer;
+    width: 90%;
+    transition: 0.2s;
 }
 .btn{
     text-decoration: none;
     color: white;
     padding: 10px 40px;
-    background-image: linear-gradient(orange,tomato);
+    background-image: linear-gradient(crimson,tomato);
+}
+.btn:hover{
+    background-image: linear-gradient(tomato,crimson);
 }
 .mid-banner{
     margin-top: 50px;
@@ -35,4 +43,33 @@ h2{
     background-image: url(./img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience{
+    margin:50px 0px;
+}
+.experience-content{
+    display: flex;
+    background-image: url(./img/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.exp-dev{
+    box-shadow: 10px 10px 40px gray;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 2%;
+}
+#full-stack{
+    border-left: 8px solid crimson;
+}
+#baby-web{
+    border-left: 8px solid tomato;
+}
+footer{
+    text-align: center;
+    margin: 100px 0px 0 0;
+    padding: 100px 0;
+    background-image: linear-gradient(tomato,crimson);
+    color: white;
+    font-size: 18px;
 }
