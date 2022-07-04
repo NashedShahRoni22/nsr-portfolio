@@ -12,17 +12,27 @@ h2{
 .top-banner{
     display: flex;
     align-items: center;
+    background-image: url(./img/top-banner.png);
+    background-repeat: no-repeat;
 }
 .half-width{
     width: 50%;
     margin-left: 5%;
 }
 .half-width img{
-    width: 100%;
+    width: 60%;
 }
 .btn{
     text-decoration: none;
     color: white;
     padding: 10px 40px;
     background-image: linear-gradient(orange,tomato);
+}
+.mid-banner{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    background-image: url(./img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
